@@ -1,0 +1,755 @@
+ ***********************************************
+ ***                                         ***
+ ***   NEW  SHAPE  FUNCTIONS  ARE  SET:      ***
+ ***   PRIMITIVES OF LEGENDRE POLYNOMIALS    ***
+ ***                                         ***
+ ***********************************************
+  ENTER:     PROJECT_NAME
+ EXECUTE: SET NDIMEN=? (1/2) ?
+ NDIMEN   =            1
+ set NRBREAKS =? 
+ NRBREAKS =            0
+ list breakpoint names: LPRNAME = ?
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+  *** READING SWITCHED ***
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ RETYPE COMMAND
+  WARNING:   10 ELEMENTS WERE UNCHANGED
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=    11    log10=0.1041E+01
+ TOTAL ERRORS:
+ L2:    0.2186E+00    log10=-.6604E+00
+ H1:    0.1121E+01    log10=0.4966E-01
+ MAX:   0.1342E+01    log10=0.1278E+00
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=    21    log10=0.1322E+01
+ TOTAL ERRORS:
+ L2:    0.2964E-01    log10=-.1528E+01
+ H1:    0.2731E+00    log10=-.5637E+00
+ MAX:   0.2064E+00    log10=-.6853E+00
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=    41    log10=0.1613E+01
+ TOTAL ERRORS:
+ L2:    0.2866E-02    log10=-.2543E+01
+ H1:    0.2080E+00    log10=-.6819E+00
+ MAX:   0.3402E-01    log10=-.1468E+01
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=    81    log10=0.1908E+01
+ TOTAL ERRORS:
+ L2:    0.3662E-03    log10=-.3436E+01
+ H1:    0.1027E+00    log10=-.9886E+00
+ MAX:   0.5552E-02    log10=-.2256E+01
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=   161    log10=0.2207E+01
+ TOTAL ERRORS:
+ L2:    0.9287E-04    log10=-.4032E+01
+ H1:    0.5167E-01    log10=-.1287E+01
+ MAX:   0.1407E-02    log10=-.2852E+01
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+  +++++++++++++ END OF INPUT FILE ++++++++++++++

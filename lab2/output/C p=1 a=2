@@ -1,0 +1,509 @@
+ ***********************************************
+ ***                                         ***
+ ***   NEW  SHAPE  FUNCTIONS  ARE  SET:      ***
+ ***   PRIMITIVES OF LEGENDRE POLYNOMIALS    ***
+ ***                                         ***
+ ***********************************************
+  ENTER:     PROJECT_NAME
+ EXECUTE: SET NDIMEN=? (1/2) ?
+ NDIMEN   =            2
+ set NRBREAKS =? 
+ NRBREAKS =            0
+ list breakpoint names: LPRNAME = ?
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+  *** READING SWITCHED ***
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ RETYPE COMMAND
+  WARNING:   64 ELEMENTS WERE UNCHANGED
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ACTION:
+  
+ {REFINE,UNREFINE,ENRICH}
+       ,NEL               ELEMENT #NEL
+       ,GLOBAL            ALL ELEMENTS
+        ,BOUNDARY=N         BOUNDARY N
+        ,ORDER=K               ORDER K
+  
+  PLOT                    PLOT MESH
+       ,COMPONENT=C       SOLUTION C
+ *************************************************
+ *                                               *
+ *   IN ROUTINE MESH:                            *
+ *                                               *
+ *************************************************
+ SELECT ACTION: 
+  
+ PLOT.....................................plot mesh
+ REFINE,elem_number..................refine element
+ REFINE,GLOBAL..................refine all elements
+ ENRICH,elem_number,order=?..........enrich element
+ ENRICH,GLOBAL,order=?..........enrich all elements
+ END...................................exit routine
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ MIN=  -0.1940E+01 MAX=   0.2848E+01
+ MAPCNC 1...
+ MAPCNC 3...
+ MAPCNC 4...
+ MAPCNC 41...
+ NLEVEL=          14
+ FN=  -2.2500000000000000       -1.8750000000000000       -1.5000000000000000       -1.1250000000000000      -0.75000000000000000      -0.37500000000000000        0.0000000000000000       0.37500000000000000       0.75000000000000000        1.1250000000000000        1.5000000000000000        1.8750000000000000        2.2500000000000000        2.6250000000000000        3.0000000000000000     
+ MAPCNC 42...
+ MAPCNC 5...
+ MAPCNC 6...
+ MAPCNC 7...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=    81    log10=0.1908E+01
+ TOTAL ERRORS:
+ L2:    0.7952E+00    log10=-.9950E-01
+ H1:    0.8043E+01    log10=0.9054E+00
+ MAX:   0.2465E+01    log10=0.3918E+00
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=          41
+ LIST=          36          29          43          22          23          58          57          30          51          50          15          16          44          14          42          37          21           8          41          59          34          52          60          49
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=         113
+ LIST=          67          73          79          85          91          97         103         109         115         121         127         133         139         145         151         157         163         169         175         181         187         193         199         205
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=         209
+ LIST=         223         229         235         241         247         253         259         265         271         277         289         295         301         319         325         331         343         349         361         367         379         385         391         397
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ MIN=  -0.1539E+01 MAX=   0.1539E+01
+ MAPCNC 1...
+ MAPCNC 3...
+ MAPCNC 4...
+ MAPCNC 41...
+ NLEVEL=          14
+ FN=  -1.7500000000000000       -1.5000000000000000       -1.2500000000000000       -1.0000000000000000      -0.75000000000000000      -0.50000000000000000      -0.25000000000000000        0.0000000000000000       0.25000000000000000       0.50000000000000000       0.75000000000000000        1.0000000000000000        1.2500000000000000        1.5000000000000000        1.7500000000000000     
+ MAPCNC 42...
+ MAPCNC 5...
+ MAPCNC 6...
+ MAPCNC 7...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=   367    log10=0.2565E+01
+ TOTAL ERRORS:
+ L2:    0.4711E-01    log10=-.1327E+01
+ H1:    0.2945E+01    log10=0.4691E+00
+ MAX:   0.2853E+00    log10=-.5448E+00
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=         380
+ LIST=         130         106          88         172         135         134         124          82          76          98         220          70         214         687         620         254         502         490         686         530         681         680         627         489         555         621         626          93         249         296         622         688         256         226         232         166         628         536         532         682         679         537         238         549         531         685         507         625         297         538         554         500         104         548         619         248         556         482         255         550         154         604         298         529         508         483         484         272         535
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=         599
+ LIST=         835         841         847         853         859         871         877         883         889         895         901         907         913         919         925         931         937         943         949         955         961         967         973         979         985         991         997        1003        1009        1015        1021        1027        1033        1039        1045        1051        1057        1063        1069        1075        1081        1087        1093        1105        1111        1117        1123        1129        1135        1141        1147        1153        1159        1165        1171        1189        1195        1201        1207        1213        1099        1219        1225        1231        1237        1249        1255        1261        1267
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=         917
+ LIST=        1273        1279        1285        1297        1303        1309        1315        1321        1327        1333        1339        1345        1351        1357        1363        1369        1387        1399        1411        1417        1423        1429        1435        1453        1465        1477        1483        1489        1495        1501        1507        1513        1519        1537        1555        1561        1567        1579        1585        1591        1603        1615        1633        1651        1657        1669        1687        1699        1711        1717        1723        1741        1747        1753        1765        1771        1777        1789        1795        1801        1807        1831        1837        1849        1861        1873        1879        1885        1903
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ENTER FRONTAL SOLVER...
+ EXIT FRONTAL SOLVER...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ MIN=  -0.1539E+01 MAX=   0.1539E+01
+ MAPCNC 1...
+ MAPCNC 3...
+ MAPCNC 4...
+ MAPCNC 41...
+ NLEVEL=          14
+ FN=  -1.7500000000000000       -1.5000000000000000       -1.2500000000000000       -1.0000000000000000      -0.75000000000000000      -0.50000000000000000      -0.25000000000000000        0.0000000000000000       0.25000000000000000       0.50000000000000000       0.75000000000000000        1.0000000000000000        1.2500000000000000        1.5000000000000000        1.7500000000000000     
+ MAPCNC 42...
+ MAPCNC 5...
+ MAPCNC 6...
+ MAPCNC 7...
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ TOTAL NDOF=  1220    log10=0.3086E+01
+ TOTAL ERRORS:
+ L2:    0.9276E-02    log10=-.2033E+01
+ H1:    0.1263E+01    log10=0.1016E+00
+ MAX:   0.8138E-01    log10=-.1089E+01
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=        1351
+ LIST=         856         861         844         878         842         860         838         879         849         848         873         267         273         745         136         884         250         266        1162         862         896         855        1228         891         885         872         111        1954        2320        1282        1311        1216         880         302        1288         890        1183        1144        1196        2319         303         333         543        1191        1318        1227        1287        1143         908         332        1322        1214         909        1209        1010         561         110        1312        1071        1306        1334        1197         850         542        1276        1305        1996        1005         897        1310        1022        1138        1329        1168        1258        1953        1323        1198        1142         544         934        1280        1126         562        1994        1204        1963        1993         751        1070         945         940        1252         874        1286        1190        1107        1226         632        1148         865        1023         970        1048        1222        1174         964        1316         976        1328        1089        1474         159        1011        1016        1120         691         493        1029        1234         952        1000        1096        1274        1210        1132        1408        1072        1064        1966        1042        1012        1202        1084        1256         633         141         631         693        1324         158         922        1058        1028         994         692        1346        1576         268        1964        1396        1462        1192        1347        1059        1317        1077        1113        1076        1239        1137        1335        1858        1304        1166         274        1262        1275         746        1491        2317        2318         938        1024         987        1330         958        1336         100        1034         928        1270        1648        1125        1965         511        1004        1030        1090         634         616        1952         926        1060        1220         787         892        1108        1281        1078        1251        1263         694         982         496        1348          94        1378        1384        1612        1240        1185        1114         514        1642         886        1035         956         988         334        1490         910         747        1394        1036          38         304         946        1995        1150        1006         793          45         898         559         921         932        1534        1160        1600         541        1528         993        1405        1856        1066        1786        1666        1696        1918        1264         998        1018        1383        1684         968
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=        2119
+ LIST=        3151        3157        3163        3169        3175        3187        3193        3199        3205        3217        3223        3229        3235        3241        3181        3247        3253        3271        3277        3283        3289        3295        3301        3307        3313        3325        3211        3331        3337        3343        3349        3355        3361        3367        3373        3385        3391        3397        3403        3409        3427        3433        3439        3445        3451        3457        3463        3469        3475        3487        3493        3499        3505        3511        3517        3523        3265        3529        3535        3541        3547        3553        3559        3565        3571        3577        3583        3589        3601        3607        3613        3619        3625        3631        3637        3643        3649        3655        3661        3667        3673        3679        3685        3691        3697        3703        3709        3715        3721        3727        3733        3739        3745        3751        3757        3763        3769        3775        3781        3787        3319        3793        3799        3805        3811        3817        3823        3829        3835        3841        3847        3853        3379        3859        3865        3871        3877        3883        3889        3895        3901        3907        3913        3919        3925        3931        3937        3943        3949        3955        3961        3967        3973        3979        3985        3991        3421        3997        4003        4009        3481        4015        4021        4027        4033        4039        4045        4051        4057        4063        4069        4075        4081        4087        4093        4099        4105        4111        4117        4123        4129        4135        4141        4147        4153        4159        4165        4171        4177        4183        4189        4195        4201        4207        4213        4219        4225        4231        3595        4237        4243        4249        4255        4261        4267        4273        4285        4291        4297        4303        4309        4315        4321        4327        4333        4339        4345        4351        4357        4363        4369        4375        4381        4387        4393        4399        4279        4405        4411        4417        4423        4429        4435        4441        4447        4453        4459        4465        4471        4477        4483        4489        4495        4501        4507        3259        4513        4519        4525        4531        4537        4543        3415        4549        4555        4561        4567        4573        4579        4585        4591        4597        4603        4609        4615        4621        4627        4633        4639        4645        4651        4657        4663        4669        4675        4681
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+ ELEMENTS TO BE REFINED:
+ IEL=        2953
+ LIST=        4687        4693        4699        4705        4711        4717        4723        4729        4735        4741        4747        4753        4759        4765        4771        4777        4783        4789        4795        4801        4807        4819        4825        4831        4837        4843        4849        4855        4861        4867        4873        4879        4885        4891        4897        4903        4909        4915        4921        4927        4933        4939        4945        4951        4957        4963        4969        4975        4981        4987        4993        4999        5005        5011        5017        5023        5029        5035        5041        5047        5053        5059        5065        5071        5077        5083        5089        5095        5101        5107        5113        5119        5125        5131        5137        5155        5161        5167        5173        5179        5185        5191        5197        5203        5209        5215        5221        5227        5233        5239        5245        5251        5257        5263        5269        5275        5281        5287        5293        5299        5305        5311        5317        5323        5329        5335        5347        5353        5365        5371        5377        5383        5389        5395        5401        5407        5419        5425        5431        5437        5443        5449        5455        5461        5467        5473        5479        5485        5491        5497        5503        5509        5515        5521        5527        5533        5539        5545        5551        5557        5563        5569        5575        5581        5587        5593        5599        5605        5611        5617        5623        5629        5635        5641        5647        5653        5659        5665        5671        5677        5689        5695        5701        5707        5713        5719        5725        5737        5743        5749        5755        5761        5773        5779        5785        5791        5797        5803        5809        5815        5821        5827        5833        5839        5845        5851        5857        5863        5869        5875        5881        5887        5893        5899        5905        5911        5917        5923        5929        5935        5947        5953        5959        5971        5977        5983        5989        6007        6013        6019        6025        6031        6037        6043        6049        6055        6061        6067        6073        6079        6085        6091        6097        6109        6115        6121        6127        6133        6139        6145        6151        6157        6163        6169        6175        6181        6187        6193        6199        6211        6217        6223        6229        6241        6259        6265        6271        6277        6289        6307        6313        6319        6325        6337        6343        6349
+ ***************************************************
+ *                                                 *
+ *      I N   R O U T I N E   E X E C U T E        *
+ *                                                 *
+ ***************************************************
+  
+ SELECT ACTION:
+ MESH.........................display or modify mesh
+ TWODIM......................display map of solution
+ TRIDIM..............display perspective of solution
+ PROFILE=ONE.............display profile of solution
+ SOLVE..................solve boundary-value problem
+ ERREST...............................estimate error
+ DISERR=1/2/3................display L2/H1/MAX-error
+ ADAPTH............................h mesh adaptation
+ ADAPTP............................p mesh adaptation
+  +++++++++++++ END OF INPUT FILE ++++++++++++++
